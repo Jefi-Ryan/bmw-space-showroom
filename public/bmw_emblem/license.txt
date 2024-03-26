@@ -1,0 +1,11 @@
+Model Information:
+* title:	BMW Emblem
+* source:	https://sketchfab.com/3d-models/bmw-emblem-3600527a617e49ef9832934dfde9fe59
+* author:	Jupiter (https://sketchfab.com/jupiterus)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "BMW Emblem" (https://sketchfab.com/3d-models/bmw-emblem-3600527a617e49ef9832934dfde9fe59) by Jupiter (https://sketchfab.com/jupiterus) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
