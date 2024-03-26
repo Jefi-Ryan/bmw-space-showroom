@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# bmw-space-showroom
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Team Name - Tech Titans
+Team Members - Jefi Ryan D, Nicholas Branson Francis
+Theme - BMW Car Showroom in Space
 
-## Available Scripts
+This react App makes use of A-Frame Framework that allows us to view contents in a 3D Fashion. The theme used here is a BMW Car Showroom in the Space. 
 
-In the project directory, you can run:
+For the showroom, a 3D showroom model has been downloaded as a ready-to-use model from the SketchFab Repository. Once it was downloaded, a 3D Model editor such as Blender was used to remove unnecessary entities from the model, such as blocks/cubes obstructing the way, etc. After this, the modified model was exported from Blender as a GLTF File.
 
-### `npm start`
+Next, a react App is created , where script files like 'aframe' is included in the 'index.html' file of the app. This is done so as to avail a-frame related features.
+If we want to display any 3D object in react app using a-frame, we need to initially create a parent container using the <a-scene> tag. Under this tag, we can use child elements like <a-entity> (Used to create any 3d entity like ground, sky, 3d model, etc). 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The 3D model used basically consists of two round areas interconnected with a bridge. One of the areas has a centre hole, where a video sphere was added using the <a-videosphere> tag. This sphere would show a BMW ad for one of their upcoming cars. Similarly, multiple rectangular video frames have been created on the top section of both areas, as well as along the bridge pathway.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Just like the 3D showroom model, various BMW vahicles have been downloaded and loaded into the app too, such as M3, M4, etc. They are placed in the showroom in desired areas by using the 'position' attribute of the <a-entity> tag. When we navigate close to the vehicles, the specifications of the car will pop up. 
 
-### `npm test`
+The audios of the video can be heard when we navigate close to the respective screens or the video sphere.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+For the sky, a 'milky way galaxy night sky' jpg image has been used in the <a-sky> tag using the 'src' attribute to specify the path of the image.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Finally, The BMW logo has also been added on the exterior part of the showroom.
